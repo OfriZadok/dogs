@@ -1,0 +1,12 @@
+body  {
+    background-image: url("https://media.mnn.com/assets/images/2018/07/1st_I_Love_Dogs_Because_Tamara_Kedves_.jpg.990x0_q80_crop-smart.jpg");
+    background-size: cover;
+}
+.dogContainer{
+    color: rgb(34, 34, 34);
+font-weight: bold;
+margin: 7px;
+}
+#dog{
+    margin-top: 50px;
+}

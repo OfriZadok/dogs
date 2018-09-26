@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dogs</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap\dist\css\bootstrap.css" />
+</head>
+
+<body>
+<div class = "text-center">
+    <button id="dog" type="button" class="btn btn-dark">Show Dogs</button>
+    <div class="dogContainer"></div>
+</div>
+    <script id="dogs-template" type="text/x-handlebars-template">
+    {{#each dogs}}
+ <li>{{name}} is {{age}} years old </li>
+{{/each}}
+</script>
+
+    <script src="handlebars\dist\handlebars.min.js"></script>
+    <script src="jquery\dist\jquery.js"></script>
+    <script src="main.js" type="module"></script>
+
+</body>
+
+</html>
